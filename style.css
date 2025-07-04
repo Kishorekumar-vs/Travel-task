@@ -1,0 +1,736 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(230, 200, 176,0.2) !important;
+}
+
+.navbar {
+  display: flex;
+  background-color:white;
+  padding: 15px 10px;
+  color: rgb(17, 17, 17);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links li a {
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  font-size: 16px;
+   margin-left: -10px;
+ 
+}
+button{
+    font-size: 20px;
+    color: orangered;
+    background-color: white;
+    border: 1px solid orangered;
+    height: 30px;
+    padding: 2px 20px;
+}
+
+.travel {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.page1
+{
+    border: 1px solid red;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+   margin-top: 20px;
+   border: none;
+}
+
+
+.discover h6{
+    font-size: 55px;
+    font-weight: 700;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.discover p{
+    font-size: 20px;
+    color: rgb(184, 180, 180);
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.categories{
+    border: 1px solid red;
+    border: none;
+
+}
+
+.cat{
+    display: flex;
+    gap: 620px;
+    padding-top: 30px;
+}
+
+.lots{
+    margin-left: 150px;
+}
+
+.lots h6{
+    font-size: 35px;
+}
+.ph1 h5{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.lots p{
+    width: 354px;
+    color: grey;
+}
+
+.photo{
+    display: flex;
+    gap: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+
+.page3{
+    border: 1px solid red ;
+    display: flex;
+    gap: 70px;
+     margin-left: 80px;
+     border: none;
+     
+}
+
+.experience {
+    margin-top: 140px;
+
+}
+
+.experience h6{
+    font-size: 26px;
+    color: orangered;
+}
+
+.experience h4{
+    font-size: 44px;
+    width: 400px;
+}
+
+.experience p{
+    font-size: 18px;
+    color: grey;
+    width: 480px;
+    text-align: justify;
+}
+
+.rate{
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+.box1{
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    height: 160px;
+    width: 140px;
+    padding: 30px 10px;
+    background-color: white;
+   
+}
+.box1 img{
+    padding: 10px 10px;
+}
+.box1 p{
+    width: 110px;
+    padding: 10px 10px;
+}
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.card{
+    border: none;
+    width: 405px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.card img{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+.cardcon h3{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.cardcon p{
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.price{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price h6{
+    margin-left: 35px;
+    font-size: 20px;
+}
+.price button{
+    margin-left: 150px;
+    height: 45px;
+    width: 120px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+/* page4 */
+.page4{
+    border: 1px solid red;
+    width: 100%;
+    border: none;
+}
+
+.page4 h5{
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.page4 p{
+    font: 18px;
+    text-align: center;
+    color: grey;
+}
+
+.country {
+    display: flex;
+    gap: 50px;
+    margin-left: 450px;
+}
+
+.country p{
+    border: 1px solid rgb(109, 106, 106);
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.tour{
+    position: relative;
+}
+
+.t{
+    position: absolute;
+    left: 160px;
+    top: 20px;
+}
+.t1{
+    position: absolute;
+    left: 457px;
+    top: 20px;
+}
+
+.t3{
+    position: absolute;
+    left: 157px;
+    top: 290px;
+}
+
+
+.t4{
+    position: absolute;
+    left: 840px;
+    top: 280px;
+}
+
+.t5{
+    position: absolute;
+    left: 1040px;
+    top: 280px;
+}
+
+.t2{
+    position: absolute;
+    left: 840px;
+    top: 20px;
+}
+
+/* page 5 */
+.page5{
+    margin-top: 600px;
+    display: flex;
+    gap: 140px;
+    margin-left: 120px;
+}
+.about{
+    margin-top:60px;
+}
+.about h4{
+    width: 400px;
+    font-size: 39px;
+}
+
+.said{
+    display: flex;
+    border: 1px solid  red;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.and p{
+    width: 430px;
+}
+
+.arrow1 img{
+    margin-top: 120px;
+    
+
+}
+.page6{
+    border: 1px solid red;
+    height: 230px;
+    width: 1070px;
+    border-radius: 10px;
+    background-image: url(./images/Newsletter.png);
+    margin-left: 150px;
+    border: none;
+    margin-top: 10px;
+}
+
+.page6 h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 60px;
+
+}
+
+.page6 p{
+    font-size: 18px;
+    text-align: center;
+    color: grey;
+}
+
+.page6 input{
+    border-radius:10px;
+    border: none;
+    height: 30px;
+    width: 260px;
+    padding: 2px 10px;
+    margin-left: 400px;
+}
+
+.page6 img{
+    margin-left: -30px;
+    
+}
+
+/* footer */
+.foot{
+    display: flex;
+    margin-left: 90px;
+    gap: 140px;
+    margin-top: 30px;
+}
+
+.resource ul{
+    margin-top: 10px;
+}
+
+.resource li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+/* Responsive */
+@media (max-width: 500px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    flex-direction: column;
+    padding: 10px 25px;
+    width: 200px;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .travel {
+    display:block;
+    margin-left: -55px;
+  }
+
+ 
+  .page1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-left: -30px;
+    margin-right: 0;
+  }
+  .page1 h6{
+    margin-top: 10px;
+  }
+  .image img{
+    height: 350px;
+    width: 350px;
+  }
+  .photo1 img{
+    height: 350px;
+    width: 350px;
+  }
+
+  .pic img{
+     height: 450px;
+    width: 350px;
+    margin-top: 10px;
+  }
+  .cat{
+   flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-left: 0;
+    margin-right: 0; 
+  }
+
+  .photo{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-left: 70px;
+    margin-right: 0;
+  }
+
+  .page3{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .page5{
+    flex-direction: column;
+    align-items: center;
+    /* gap: 30px; */
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .about 
+  {
+    margin-left: 30px;
+  }
+  .said{
+    width: 400px;
+  }
+
+  .and p{
+    width: 300px;
+  }
+
+  .discover h6{
+    margin-left: 20px;
+    width: 400px;
+    text-align: center;
+  } 
+  .discover p {
+    margin-left: 20px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .lots {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .lots h6 {
+    font-size: 28px;
+  }
+
+  .lots p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ph1 h5 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* Experience Section */
+  .experience {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .experience h4{
+     width: 400px;
+    margin: 0 60px;
+  } 
+  .experience p {
+    width: 400px;
+    margin-left: 70px;
+  }
+
+  .rate {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+  .box1 {
+    margin-bottom: 20px;
+  }
+  .box1 p{
+    width: 100px;
+    margin-left: -5px;
+
+  }
+
+  .country {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    gap: 10px;
+  }
+
+  
+
+  .tour {
+    position: static;
+  }
+
+  .t {
+    position: static;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .t1{
+     position: static;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .t2{
+     position: static;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .t3{
+     position: static;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .t4{
+     position: static;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .t5{
+     position: static;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .page5 {
+    margin-left: 0;
+    gap: 30px;
+    margin-top: 200px;
+  }
+  .arrow1 img {
+    margin-top: 20px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+ .page6 {
+    margin-left: 20px;
+    width: 90%;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .page6 h5{
+    margin: 10px 0;
+    text-align: center;
+  } 
+  .page6 p {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .page6 input {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .page6 img {
+    margin-left: 340px;
+    display: block;
+    margin-top: -30px;
+  }
+
+
+  /* Footer */
+  .foot {
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    flex-direction: row;
+     margin-right: 0;
+  }
+}
+
+
+
+
+/* Tablets (portrait and landscape) */
+@media (max-width: 991px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    padding: 20px;
+    display: none;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .travel {
+    display: block;
+    cursor: pointer;
+    font-size: 28px;
+    margin-right: 15px;
+  }
+
+  .page1,
+  .page3,
+  .page5 {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .discover h6,
+  .discover p,
+  .experience h4,
+  .experience p {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .lots {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .photo,
+  .rate {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .country {
+    margin: 20px auto;
+    justify-content: center;
+  }
+
+  .tour .t,
+  .tour .t1,
+  .tour .t2,
+  .tour .t3,
+  .tour .t4,
+  .tour .t5 {
+    position: static;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .page6 {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    height: auto;
+  }
+
+  .page6 input {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .foot {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 0;
+  }
+
+  .said {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .and p {
+    width: 100%;
+    text-align: center;
+  }
+}
+
